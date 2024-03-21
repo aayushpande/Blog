@@ -1,0 +1,10 @@
+.bgcard{
+    width: 450px;
+    display: inline-block;
+    margin-top: 115px;
+    padding: 30px 45px;
+    background-color:rgb(213, 120, 213);
+    color: black;
+    text-align: left;
+    margin-left: 50px;
+}
