@@ -7,6 +7,7 @@ import Blog from'./Components/Blog'
 import BlogContent from './Components/BlogContent';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import ReadBlog from './Components/ReadBlog';
 
 function App() {
  
@@ -22,6 +23,7 @@ function App() {
       <Route path="/blog" element={<Blog/>}/>
       <Route path="/blogcontent" element={<BlogContent/>}/>
       <Route path="/Hello" element={<Hello/>}/>
+      <Route path="/ReadBlog" element={<ReadBlog/>}/>
       </Routes>
     
     </BrowserRouter>
