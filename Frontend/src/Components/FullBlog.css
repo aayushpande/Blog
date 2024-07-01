@@ -1,0 +1,98 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Background color */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Page Container Styles */
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #34495e; /* Navbar background color */
+    color: #ffffff; /* Navbar text color */
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color:#d1d6db; /* Footer background color */
+    color: #ffffff; /* Footer text color */
+    padding: 10px 15px; /* Reduced padding for a smaller footer */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  /* Main Container Styles */
+  .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px; /* Adjust to avoid overlap with navbar */
+    padding-bottom: 50px; /* Adjust to avoid overlap with footer */
+    width: 100%;
+  }
+  
+  /* Blog Card Styles */
+  .cncard {
+    background-color: #ffffff; /* Card background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 800px;
+    padding: 25px 40px;
+    width: 90%;
+  }
+  
+  /* Blog Content Styles */
+  .cncard .title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #343a40;
+  }
+  
+  .cncard .subject {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #555555;
+  }
+  
+  .cncard .content {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666666;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .cncard {
+      padding: 20px;
+      width: 100%;
+    }
+  }
+  

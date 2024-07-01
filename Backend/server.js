@@ -76,10 +76,10 @@ app.get('/getblog/:id', async (req, res) => {
         const {id}= req.params
        
         const blogs = await Blog.findById(id);
-        if (blogs) { // Check if the blog was found
-            res.status(200).json(blogs); // Return the found blog
+        if (blogs) { 
+            res.status(200).json(blogs); 
         } else {
-            res.status(404).json({ error: 'No blog found' }); // Return an error if no blog was found
+            res.status(404).json({ error: 'No blog found' }); 
         }
     } catch (error) {
         console.error('Error getting blogs:', error);

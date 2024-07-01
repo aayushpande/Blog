@@ -1,0 +1,81 @@
+
+/* Reset CSS */
+.login-page, .login-page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+.login-page {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.login-page image {
+    margin: 0%;
+}
+
+/* Login Card Styles */
+.login-card {
+    background-color: #ffffff; /* Card background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px 60px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-card h1 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.login-card label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+    color: #555555;
+}
+
+.login-card input {
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #343a40; /* Button background color */
+    color: #ffffff; /* Button text color */
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-card button:hover {
+    background-color: #555555;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .login-card {
+        padding: 20px 30px;
+    }
+
+    .login-card input {
+        width: calc(100% - 10px);
+    }
+}

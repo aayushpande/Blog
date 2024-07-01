@@ -1,0 +1,27 @@
+/* Footer Styles */
+.footer {
+  background-color: #d1d6db; /* Footer background color */
+  color: #ffffff; /* Footer text color */
+  padding: 10px 15px; /* Reduced padding */
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  font-size: 12px; /* Reduced font size */
+}
+
+@media screen and (max-width: 768px) {
+  .footer-content p {
+    font-size: 10px; /* Reduced font size for smaller screens */
+  }
+}

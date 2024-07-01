@@ -1,0 +1,55 @@
+/* Reset CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9; /* Fallback background color */
+}
+
+/* Container Styles */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('C:\Users\NEW\Desktop\Blog.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover;
+    padding-top: 70px; /* Ensures content is not overlapped by fixed navbar */
+    padding-bottom: 70px; /* Ensures content is not overlapped by fixed footer */
+}
+
+/* Title Styles */
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff; /* White color for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+}
+
+/* Content Styles */
+.content {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+}
+
+.content h4, .content p {
+    margin: 10px 0;
+    color: #34495e;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+}

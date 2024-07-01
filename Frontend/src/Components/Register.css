@@ -1,0 +1,77 @@
+/* Reset CSS */
+.register-page, .register-page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+.register-page {
+    font-family: 'Arial', sans-serif;
+    background: url('https://source.unsplash.com/random/1920x1080') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Register Card Styles */
+.regcard {
+    background-color: rgba(255, 255, 255, 0.9); /* Card background color with transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px 60px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.regcard h1 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.regcard label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+    color: #555555;
+}
+
+.regcard input {
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.regcard button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #343a40; /* Button background color */
+    color: #ffffff; /* Button text color */
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.regcard button:hover {
+    background-color: #555555;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .regcard {
+        padding: 20px 30px;
+    }
+
+    .regcard input {
+        width: calc(100% - 10px);
+    }
+}
