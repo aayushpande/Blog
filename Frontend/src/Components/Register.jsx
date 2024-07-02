@@ -21,7 +21,7 @@ function Register() {
 
   const handleSubmit = async (event) => {
     event.preventDefault(); // Prevent default form submission
-    try {const response = await fetch('http://localhost:3000/register',
+    try {const response = await fetch('http://localhost:4000/register',
        {
         method: 'POST',
         headers: {

@@ -7,7 +7,7 @@ function Blog() {
 
   const getData = async () => {
     try {
-      const res = await fetch('http://localhost:3000/getblogs');
+      const res = await fetch('http://localhost:4000/getblogs');
 
       const data = await res.json();
       setBlogs(data.blogs);

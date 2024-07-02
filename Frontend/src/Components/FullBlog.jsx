@@ -11,7 +11,7 @@ function FullBlog() {
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/getblog/${id}`);
+        const res = await fetch(`http://localhost:4000/getblog/${id}`);
         const data = await res.json();
         setBlog(data);
       } catch (error) {
